@@ -11,7 +11,7 @@ RUN rm SenchaCmd-6.5.0.180-linux-amd64.sh && chmod +x /opt/Sencha/Cmd/6.5.0.180/
 
 ENV PJS_HOME=/usr/lib/phantomjs
 RUN cd /tmp && \
-  curl -Ls "https://github.com/israelroldan/docker-sencha-cmd/raw/phantomjs-2.1.1/dockerized-phantomjs-2.1.1.tar.gz" | tar xz -C / && \
+  curl -Ls "https://github.com/Shyre/docker-sencha-cmd/raw/phantomjs-2.1.1/dockerized-phantomjs-2.1.1.tar.gz" | tar xz -C / && \
   ln -s "$PJS_HOME/bin/phantomjs" /usr/bin/phantomjs && \
   rm /opt/Sencha/Cmd/6.5.0.180/bin/linux-x64/phantomjs/phantomjs && \
   ln -s "$PJS_HOME/bin/phantomjs" /opt/Sencha/Cmd/6.5.0.180/bin/linux-x64/phantomjs/phantomjs
