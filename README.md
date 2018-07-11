@@ -1,9 +1,3 @@
-# Supported tags and respective `Dockerfile` links
-
-- [`6.2.0.103`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.2.0.103/Dockerfile), [`6.2.0`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.2.0.103/Dockerfile), [`6.2`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.2.0.103/Dockerfile), [`latest`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.2.0.103/Dockerfile) [_(v6.2.0.103/Dockerfile)_](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.2.0.103/Dockerfile)
-- [`6.1.3.42`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.1.3.42/Dockerfile), [`6.1.3`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.1.3.42/Dockerfile), [`6.1`](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.1.3.42/Dockerfile) [_(v6.1.3.42/Dockerfile)_](https://github.com/israelroldan/docker-sencha-cmd/blob/v6.1.3.42/Dockerfile)
-
-For more information about the changes in this version please check the [release notes](http://cdn.sencha.com/cmd/6.2.0.103/release-notes.html). This image is updated automatically on each generally available release of Sencha Cmd.
 
 # What is Sencha Cmd?
 Sencha Cmd is the cornerstone for building your Sencha Ext JS and Sencha Touch applications. Sencha Cmd provides a full set of lifecycle management features such as scaffolding, code minification, production build generation, and more, to complement your Sencha projects.
@@ -30,7 +24,7 @@ This image is based on [OpenJDK's image](https://hub.docker.com/_/openjdk/) ([`o
  
 - OpenJDK 8 JRE
 - Ruby 2.2
-- Sencha Cmd 6.2.0.103 with Compass extensions
+- Sencha Cmd 6.5.0.125 with Compass extensions
 
 ## Including this image in your `Dockerfile`
 
@@ -43,17 +37,3 @@ You can include this image in your `Dockerfile`:
 # License
 
 Sencha Cmd is licensed commercially for free.<br>See [http://www.sencha.com/legal/sencha-tools-software-license-agreement](http://www.sencha.com/legal/sencha-tools-software-license-agreement) for license terms.
-
-# User feedback
-
-## Issues 
-
-If you have any problems with or questions about Sencha Cmd, please use our [Forums](https://www.sencha.com/forum/forumdisplay.php?8-Sencha-Cmd) or [Support Portal](https://support.sencha.com/#login).
-
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/israelroldan/docker-sencha-cmd/issues).
-
-## Contributing
-
-You are invited to contribute new features, fixes, or updates. We'll do our best to process your pull requests as fast as we can.
-
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/israelroldan/docker-sencha-cmd/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
