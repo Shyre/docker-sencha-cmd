@@ -24,7 +24,7 @@ This image is based on [OpenJDK's image](https://hub.docker.com/_/openjdk/) ([`o
  
 - OpenJDK 8 JRE
 - Ruby 2.2
-- Sencha Cmd 6.5.0.125 with Compass extensions
+- Sencha Cmd 6.5.0.180 with Compass extensions
 
 ## Including this image in your `Dockerfile`
 
